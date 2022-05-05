@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art_studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a href="index.html" class="menu_item logo">
+            <img src="img/icons/site-logo.svg" alt="" class="logo_img"></a>
+        <a href="#whoweare" class="menu_item">
+            <img src="img/icons/section2-ic.svg" alt="" class="logo_img"></a>
+        <a href="#about" class="menu_item">
+            <img src="img/icons/section3-ic.svg" alt="" class="logo_img"></a>
+        <a href="#photography" class="menu_item">
+            <img src="img/icons/section4-ic.svg" alt="" class="logo_img"></a>
+        <a href="#gallery" class="menu_item">
+            <img src="img/icons/section5-ic.svg" alt="" class="logo_img"></a>
+        <a href="#footer" class="menu_item">
+            <img src="img/icons/section6-ic.svg" alt="" class="logo_img"></a>
+    </nav>
+
+    <aside class="social">
+        <a href="" class="menu_item">
+            <img src="img/icons/social-fb-ic.svg" alt="" class="social_item_img"></a>
+        <a href="" class="menu_item">
+            <img src="img/icons/social-inst-ic.svg" alt="" class="social_item_img"></a>
+        <a href="" class="menu_item">
+            <img src="img/icons/social-tiktok-ic.svg" alt="" class="social_item_img"></a>
+        <a href="" class="menu_item">
+            <img src="img/icons/social-vk-ic.svg" alt="" class="social_item_img"></a>
+    </aside>
+
+    <header>
+        <div class="header_left">
+            <div class="color dark_blue"></div>
+            <div class="color red"></div>
+            <div class="color yellow"></div>
+            <div class="color blue"></div>
+        </div>
+        <div class="header_right">
+            <h1 class="header_tittle"><span class="header_tittle_span">Art</span> studio</h1>
+            <div class="header_text">
+                <p class="header_item">photography</p>
+                <p class="header_item">art</p>
+                <p class="header_item">design and branding</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="whoweare" class="whoweare">
+        <div class="whoweare_content">
+            <div class="whoweare_left">
+                <h2 class="whoweare_tittle_left">Кто мы?</h2>
+                <p class="whoweare_left_p">Наша студия создает крутые дизайны и брендинг. Мы делаем качественно. В числе наших клиентов крупные компании и вообще мы молодцы</p>
+            </div>
+            <div class="whoweare_right">
+                <div class="rect rect_1"></div>
+                <div class="rect rect_2"></div>
+                <div class="rect rect_3"></div>
+            </div>
+        </div>
+        <div class="whoweare_back">
+            <h2 class="whoweare_tittle">Знакомимся</h2>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_content">
+            <div class="about_left">
+                <h2 class="about_tittle_left">Современный дизайн</h2>
+                <p class="about_left_p">Разрушаем стереотипы, делаем крутой дизайн и создаем ШЕДЕВРЫ</p>
+            </div>
+            <div class="about_right">
+                <img src="img/pictures/3rd-section-img.png" alt="">
+            </div>
+        </div>
+        <div class="about_back">
+            <h2 class="about_tittle">Наша фишка</h2>
+        </div>
+    </section>
+
+    <section id="photography" class="photography">
+        <div class="photography_left"></div>
+        <div class="photography_right">
+            <div class="photography_content">
+                <h2 class="photography_right_title">А еще...</h2>
+                <p class="photography_right_text">У нас крутые фотографы, которые могут сделать вам фотки</p>
+            </div>
+            <div class="photography_bg">
+                <h2 class="photography_bg_text">Мы полны сюрпризов</h2>
+                <div class="photograpgy_bg_img"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="header_gallery_text">Наше портфолио</h2>
+        <div class="gallery_content">
+            <img src="img/pictures/gallery6.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery7.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery5.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery3.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery4.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery2.png" alt="" class="gallery_item">
+            <img src="img/pictures/gallery1.png" alt="" class="gallery_item">
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="img_footer_left"></div>
+
+        <div class="middle">
+            <h2 class="middle_header_text">Связаться с нами</h2>
+            <form>
+                <label for="">Имя</label>
+                <input type="text" placeholder="Иван Иванов">
+
+                <label for="">Почта</label>
+                <input type="email" placeholder="example@gmail.com">
+
+                <label for="">Вид юр. лица</label>
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                        <option value="0">Выберите</option>
+                        <option value="1">Да, мы компания</option>
+                        <option value="2">Нет, я физ. лицо</option>
+                    </select>
+                </div>
+
+                <label for="">Согласие на обработку данных</label>
+                <input class="checkbox_footer" type="checkbox">
+
+                <button class="footer_button">Отправить форму</button>
+
+            </form>
+        </div>
+
+        <div class="img_footer_right"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body></html>
